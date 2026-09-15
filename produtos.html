@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Produtos</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            background: #111118;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #7b00ff;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #9d4edd;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #9d4edd;
+        }
+
+        main {
+            padding: 60px 10%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #9d4edd;
+            margin-bottom: 40px;
+        }
+
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #16161f;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+        }
+
+        .card p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 30px;
+            text-align: center;
+            background: #08080c;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🎮 GameZone</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contate-nos.html">Contate-nos</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <h1>🛒 Nossos Produtos</h1>
+
+    <div class="produtos">
+
+        <div class="card">
+            <h2>🎮 Controles</h2>
+            <p>
+                Controles para diferentes plataformas
+                e estilos de jogos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🖥️ Monitores</h2>
+            <p>
+                Monitores para uma experiência
+                gamer mais imersiva.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>⌨️ Teclados</h2>
+            <p>
+                Teclados desenvolvidos para jogadores
+                que buscam precisão.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🎧 Headsets</h2>
+            <p>
+                Headsets para comunicação e
+                áudio durante as partidas.
+            </p>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 GameZone
+</footer>
+
+</body>
+</html>

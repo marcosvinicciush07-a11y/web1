@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Parceiros</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            background: #111118;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #7b00ff;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #9d4edd;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #9d4edd;
+        }
+
+        main {
+            padding: 60px 10%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #9d4edd;
+            margin-bottom: 40px;
+        }
+
+        .parceiros {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .parceiro {
+            background: #16161f;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+
+        .parceiro h2 {
+            margin-bottom: 15px;
+        }
+
+        .parceiro p {
+            color: #ccc;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 30px;
+            text-align: center;
+            background: #08080c;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🎮 GameZone</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contate-nos.html">Contate-nos</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <h1>🤝 Nossos Parceiros</h1>
+
+    <div class="parceiros">
+
+        <div class="parceiro">
+            <h2>GameTech</h2>
+            <p>
+                Tecnologia e equipamentos para gamers.
+            </p>
+        </div>
+
+        <div class="parceiro">
+            <h2>Pixel Studios</h2>
+            <p>
+                Desenvolvimento de jogos e conteúdos digitais.
+            </p>
+        </div>
+
+        <div class="parceiro">
+            <h2>Gamer Community</h2>
+            <p>
+                Comunidade voltada para jogadores.
+            </p>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 GameZone
+</footer>
+
+</body>
+</html>
