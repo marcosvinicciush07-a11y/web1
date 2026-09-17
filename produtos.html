@@ -1,23 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Produtos do Esquizoides Story.">
     <title>Produtos - Esquizoides Story</title>
 </head>
 
 <body>
 
     <header>
-        <h1>Esquizoides Story</h1>
-        <h2>Produtos</h2>
 
-        <nav aria-label="Navegação principal">
+        <h1>Esquizoides Story</h1>
+        <h2>Catálogo de Produtos</h2>
+
+        <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="portfolio.html">Portfólio</a></li>
                 <li><a href="parceiros.html">Parceiros</a></li>
@@ -25,111 +25,66 @@
                 <li><a href="contate-nos.html">Contate-nos</a></li>
             </ul>
         </nav>
+
     </header>
 
     <hr>
 
     <main>
 
-        <section>
-            <h2>Nossos produtos</h2>
+        <h2>Catálogo de Produtos</h2>
 
-            <p>
-                Confira alguns produtos inspirados no universo
-                de Esquizoides Story.
-            </p>
-        </section>
+        <p>
+            Confira abaixo nossos produtos e respectivos preços.
+        </p>
 
-        <section>
+        <table>
 
-            <h2>Catálogo</h2>
+            <caption>
+                Produtos Esquizoides Story
+            </caption>
 
-            <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
 
-                <caption>
-                    Tabela de produtos do Esquizoides Story
-                </caption>
+            <tbody>
 
-                <thead>
-                    <tr>
-                        <th scope="col">Produto</th>
-                        <th scope="col">Descrição</th>
-                        <th scope="col">Categoria</th>
-                        <th scope="col">Preço</th>
-                        <th scope="col">Disponibilidade</th>
-                    </tr>
-                </thead>
+                <tr>
+                    <td>Livro Esquizoides Story</td>
+                    <td>Livro com histórias do universo Esquizoides.</td>
+                    <td>R$ 49,90</td>
+                </tr>
 
-                <tbody>
+                <tr>
+                    <td>Camiseta</td>
+                    <td>Camiseta temática do Esquizoides Story.</td>
+                    <td>R$ 79,90</td>
+                </tr>
 
-                    <tr>
-                        <td>Livro Esquizoides Story</td>
-                        <td>Livro com histórias do universo.</td>
-                        <td>Literatura</td>
-                        <td>R$ 49,90</td>
-                        <td>Disponível</td>
-                    </tr>
+                <tr>
+                    <td>Poster</td>
+                    <td>Poster com arte do universo Esquizoides.</td>
+                    <td>R$ 29,90</td>
+                </tr>
 
-                    <tr>
-                        <td>Camiseta Esquizoides</td>
-                        <td>Camiseta temática do projeto.</td>
-                        <td>Vestuário</td>
-                        <td>R$ 79,90</td>
-                        <td>Disponível</td>
-                    </tr>
+                <tr>
+                    <td>Kit Especial</td>
+                    <td>Kit contendo produtos exclusivos.</td>
+                    <td>R$ 119,90</td>
+                </tr>
 
-                    <tr>
-                        <td>Poster Esquizoides</td>
-                        <td>Poster decorativo temático.</td>
-                        <td>Decoração</td>
-                        <td>R$ 29,90</td>
-                        <td>Disponível</td>
-                    </tr>
+            </tbody>
 
-                    <tr>
-                        <td>Kit Especial</td>
-                        <td>Kit com produtos selecionados.</td>
-                        <td>Especial</td>
-                        <td>R$ 119,90</td>
-                        <td>Quantidade limitada</td>
-                    </tr>
+        </table>
 
-                </tbody>
+        <h2>Escolha uma categoria</h2>
 
-            </table>
-
-        </section>
-
-        <section>
-
-            <h2>Produto em destaque</h2>
-
-            <article>
-
-                <h3>Livro Esquizoides Story</h3>
-
-                <p>
-                    Uma experiência para conhecer melhor o universo,
-                    os personagens e as histórias do projeto.
-                </p>
-
-                <p>
-                    <strong>Preço:</strong> R$ 49,90
-                </p>
-
-                <p>
-                    <a href="contate-nos.html">
-                        Comprar produto
-                    </a>
-                </p>
-
-            </article>
-
-        </section>
-
-        <section>
-
-            <h2>Escolha uma categoria</h2>
+        <form>
 
             <label for="categoria">
                 Categoria:
@@ -137,39 +92,36 @@
 
             <select id="categoria" name="categoria">
 
-                <option value="todos">
-                    Todos os produtos
-                </option>
-
-                <option value="livros">
-                    Livros
-                </option>
-
-                <option value="vestuario">
-                    Vestuário
-                </option>
-
-                <option value="decoracao">
-                    Decoração
-                </option>
-
-                <option value="kits">
-                    Kits especiais
-                </option>
+                <option value="livros">Livros</option>
+                <option value="roupas">Roupas</option>
+                <option value="posters">Posters</option>
+                <option value="kits">Kits</option>
 
             </select>
 
-        </section>
+        </form>
+
+        <h2>Me surpreenda!</h2>
+
+        <p>
+            Não sabe qual produto escolher?
+            Você pode solicitar uma recomendação personalizada.
+        </p>
+
+        <a href="contate-nos.html">
+            Quero ser surpreendido
+        </a>
 
     </main>
 
     <hr>
 
     <footer>
-        <p>&copy; 2026 Esquizoides Story.</p>
+
+        <p>&copy; 2026 Esquizoides Story</p>
+
     </footer>
 
 </body>
 
 </html>
-
