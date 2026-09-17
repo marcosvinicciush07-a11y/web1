@@ -1,164 +1,175 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameZone - Produtos</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #0b0b0f;
-            color: white;
-        }
-
-        header {
-            background: #111118;
-            padding: 20px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid #7b00ff;
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-            color: #9d4edd;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #9d4edd;
-        }
-
-        main {
-            padding: 60px 10%;
-        }
-
-        h1 {
-            text-align: center;
-            color: #9d4edd;
-            margin-bottom: 40px;
-        }
-
-        .produtos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 25px;
-        }
-
-        .card {
-            background: #16161f;
-            padding: 30px;
-            border-radius: 10px;
-            text-align: center;
-            border: 1px solid #333;
-        }
-
-        .card h2 {
-            margin: 15px 0;
-        }
-
-        .card p {
-            color: #ccc;
-            line-height: 1.6;
-        }
-
-        footer {
-            margin-top: 80px;
-            padding: 30px;
-            text-align: center;
-            background: #08080c;
-            color: #999;
-        }
-    </style>
+    <meta name="description" content="Produtos do Esquizoides Story.">
+    <title>Produtos - Esquizoides Story</title>
 </head>
 
 <body>
 
-<header>
+    <header>
+        <h1>Esquizoides Story</h1>
+        <h2>Produtos</h2>
 
-    <div class="logo">🎮 GameZone</div>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="parceiros.html">Parceiros</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contate-nos.html">Contate-nos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="contate-nos.html">Contate-nos</a></li>
-            <li><a href="parceiros.html">Parceiros</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-        </ul>
-    </nav>
+    <hr>
 
-</header>
+    <main>
 
-<main>
+        <section>
+            <h2>Nossos produtos</h2>
 
-    <h1>🛒 Nossos Produtos</h1>
-
-    <div class="produtos">
-
-        <div class="card">
-            <h2>🎮 Controles</h2>
             <p>
-                Controles para diferentes plataformas
-                e estilos de jogos.
+                Confira alguns produtos inspirados no universo
+                de Esquizoides Story.
             </p>
-        </div>
+        </section>
 
-        <div class="card">
-            <h2>🖥️ Monitores</h2>
-            <p>
-                Monitores para uma experiência
-                gamer mais imersiva.
-            </p>
-        </div>
+        <section>
 
-        <div class="card">
-            <h2>⌨️ Teclados</h2>
-            <p>
-                Teclados desenvolvidos para jogadores
-                que buscam precisão.
-            </p>
-        </div>
+            <h2>Catálogo</h2>
 
-        <div class="card">
-            <h2>🎧 Headsets</h2>
-            <p>
-                Headsets para comunicação e
-                áudio durante as partidas.
-            </p>
-        </div>
+            <table>
 
-    </div>
+                <caption>
+                    Tabela de produtos do Esquizoides Story
+                </caption>
 
-</main>
+                <thead>
+                    <tr>
+                        <th scope="col">Produto</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Preço</th>
+                        <th scope="col">Disponibilidade</th>
+                    </tr>
+                </thead>
 
-<footer>
-    © 2026 GameZone
-</footer>
+                <tbody>
+
+                    <tr>
+                        <td>Livro Esquizoides Story</td>
+                        <td>Livro com histórias do universo.</td>
+                        <td>Literatura</td>
+                        <td>R$ 49,90</td>
+                        <td>Disponível</td>
+                    </tr>
+
+                    <tr>
+                        <td>Camiseta Esquizoides</td>
+                        <td>Camiseta temática do projeto.</td>
+                        <td>Vestuário</td>
+                        <td>R$ 79,90</td>
+                        <td>Disponível</td>
+                    </tr>
+
+                    <tr>
+                        <td>Poster Esquizoides</td>
+                        <td>Poster decorativo temático.</td>
+                        <td>Decoração</td>
+                        <td>R$ 29,90</td>
+                        <td>Disponível</td>
+                    </tr>
+
+                    <tr>
+                        <td>Kit Especial</td>
+                        <td>Kit com produtos selecionados.</td>
+                        <td>Especial</td>
+                        <td>R$ 119,90</td>
+                        <td>Quantidade limitada</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section>
+
+            <h2>Produto em destaque</h2>
+
+            <article>
+
+                <h3>Livro Esquizoides Story</h3>
+
+                <p>
+                    Uma experiência para conhecer melhor o universo,
+                    os personagens e as histórias do projeto.
+                </p>
+
+                <p>
+                    <strong>Preço:</strong> R$ 49,90
+                </p>
+
+                <p>
+                    <a href="contate-nos.html">
+                        Comprar produto
+                    </a>
+                </p>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Escolha uma categoria</h2>
+
+            <label for="categoria">
+                Categoria:
+            </label>
+
+            <select id="categoria" name="categoria">
+
+                <option value="todos">
+                    Todos os produtos
+                </option>
+
+                <option value="livros">
+                    Livros
+                </option>
+
+                <option value="vestuario">
+                    Vestuário
+                </option>
+
+                <option value="decoracao">
+                    Decoração
+                </option>
+
+                <option value="kits">
+                    Kits especiais
+                </option>
+
+            </select>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Esquizoides Story.</p>
+    </footer>
 
 </body>
+
 </html>
+
