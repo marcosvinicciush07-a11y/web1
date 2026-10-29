@@ -1,25 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Entre em contato com o Esquizoides Story.">
-
     <title>Contate-nos - Esquizoides Story</title>
-
-   <link rel="stylesheet" href="style.css"> 
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
-        <h1>Esquizoides Story</h1>
-        <p>Um universo de histórias e criatividade</p>
+        <h1>ESQUIZOIDES STORY</h1>
+        <p>Envie sua mensagem para nós.</p>
     </header>
 
     <nav aria-label="Navegação principal">
@@ -35,35 +26,182 @@
     </nav>
 
     <div class="conteudo-layout">
-
         <aside>
-            <h2>Informações</h2>
-            <p>Explore o universo Esquizoides Story.</p>
-
+            <h2>Central de contato</h2>
             <ul>
-                <li><a href="sobre.html">Conheça o projeto</a></li>
-                <li><a href="produtos.html">Veja os produtos</a></li>
-                <li><a href="contate-nos.html">Fale conosco</a></li>
+                <li><a href="#compra">Comprar produto</a></li>
+                <li><a href="#servico">Solicitar serviço</a></li>
+                <li><a href="#ouvidoria">Ouvidoria</a></li>
+                <li><a href="#surpresa">Me surpreenda!</a></li>
             </ul>
+            <p>Escolha o formulário adequado à sua mensagem.</p>
         </aside>
 
         <main>
-            <!-- Mantenha aqui o conteúdo original da página -->
+            <section id="compra">
+                <h2>Compra de produtos</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Dados do pedido</legend>
 
-            <section>
-                <h2>Título da página</h2>
-                <p>Conteúdo específico desta página.</p>
+                        <label for="nome-compra">Nome:</label>
+                        <input type="text" id="nome-compra" name="nome" required>
+
+                        <label for="email-compra">E-mail:</label>
+                        <input type="email" id="email-compra" name="email" required>
+
+                        <label for="produto">Produto:</label>
+                        <select id="produto" name="produto" required>
+                            <option value="">Selecione um produto</option>
+                            <option value="livro">Livro - R$ 49,90</option>
+                            <option value="camiseta">Camiseta - R$ 79,90</option>
+                            <option value="poster">Poster - R$ 29,90</option>
+                            <option value="kit">Kit especial - R$ 119,90</option>
+                        </select>
+
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" id="quantidade" name="quantidade" min="1" max="20" value="1" required>
+
+                        <label for="pagamento">Forma de pagamento:</label>
+                        <select id="pagamento" name="pagamento">
+                            <option value="pix">Pix</option>
+                            <option value="cartao">Cartão</option>
+                            <option value="dinheiro">Dinheiro</option>
+                        </select>
+
+                        <label for="endereco">Endereço para entrega:</label>
+                        <textarea id="endereco" name="endereco" rows="3"></textarea>
+
+                        <button type="submit">Enviar pedido</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
             </section>
 
-        </main>
+            <section id="servico">
+                <h2>Solicitação de serviço</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Dados do serviço</legend>
 
+                        <label for="nome-servico">Nome:</label>
+                        <input type="text" id="nome-servico" name="nome" required>
+
+                        <label for="email-servico">E-mail:</label>
+                        <input type="email" id="email-servico" name="email" required>
+
+                        <label for="tipo-servico">Tipo de serviço:</label>
+                        <select id="tipo-servico" name="servico" required>
+                            <option value="">Selecione</option>
+                            <option value="conteudo">Criação de conteúdo</option>
+                            <option value="projeto">Projeto personalizado</option>
+                            <option value="colaboracao">Colaboração</option>
+                            <option value="divulgacao">Divulgação</option>
+                        </select>
+
+                        <label for="descricao-servico">Descreva sua ideia:</label>
+                        <textarea id="descricao-servico" name="descricao" rows="5" required></textarea>
+
+                        <label for="data-servico">Data desejada:</label>
+                        <input type="date" id="data-servico" name="data">
+
+                        <button type="submit">Solicitar serviço</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section id="ouvidoria">
+                <h2>Ouvidoria</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Envie sua manifestação</legend>
+
+                        <label for="nome-ouvidoria">Nome:</label>
+                        <input type="text" id="nome-ouvidoria" name="nome">
+
+                        <label for="email-ouvidoria">E-mail:</label>
+                        <input type="email" id="email-ouvidoria" name="email">
+
+                        <label for="tipo-manifestacao">Tipo de manifestação:</label>
+                        <select id="tipo-manifestacao" name="tipo" required>
+                            <option value="">Selecione</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+
+                        <p>Deseja receber uma resposta?</p>
+                        <label>
+                            <input type="radio" name="resposta" value="sim">
+                            Sim
+                        </label>
+                        <label>
+                            <input type="radio" name="resposta" value="nao">
+                            Não
+                        </label>
+
+                        <label for="mensagem-ouvidoria">Mensagem:</label>
+                        <textarea id="mensagem-ouvidoria" name="mensagem" rows="5" required></textarea>
+
+                        <button type="submit">Enviar manifestação</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section id="surpresa">
+                <h2>Me surpreenda!</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Conte um pouco sobre você</legend>
+
+                        <label for="nome-surpresa">Nome:</label>
+                        <input type="text" id="nome-surpresa" name="nome">
+
+                        <label for="idade">Idade:</label>
+                        <input type="number" id="idade" name="idade" min="1" max="120">
+
+                        <p>O que você prefere?</p>
+                        <label>
+                            <input type="checkbox" name="preferencias" value="historias">
+                            Histórias
+                        </label>
+                        <label>
+                            <input type="checkbox" name="preferencias" value="personagens">
+                            Personagens
+                        </label>
+                        <label>
+                            <input type="checkbox" name="preferencias" value="produtos">
+                            Produtos
+                        </label>
+                        <label>
+                            <input type="checkbox" name="preferencias" value="aventuras">
+                            Aventuras
+                        </label>
+
+                        <label for="cor">Escolha uma cor:</label>
+                        <input type="color" id="cor" name="cor" value="#8055a5">
+
+                        <label for="nivel">Quanto você gosta de surpresas?</label>
+                        <input type="range" id="nivel" name="nivel" min="0" max="10" value="5">
+
+                        <label for="ideia">Conte sua ideia:</label>
+                        <textarea id="ideia" name="ideia" rows="4"></textarea>
+
+                        <button type="submit">Enviar respostas</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
     </div>
 
     <footer>
         <p>&copy; 2026 Esquizoides Story.</p>
-        <p>Site desenvolvido com HTML5 e CSS externo.</p>
+        <p>Obrigado por visitar nosso universo!</p>
     </footer>
-
 </body>
-
 </html>

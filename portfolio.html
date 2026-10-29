@@ -1,22 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Portfólio - Esquizoides Story</title>
-
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
-
-   <header>
-        <h1>Esquizoides Story</h1>
-        <p>Um universo de histórias e criatividade</p>
+    <header>
+        <h1>ESQUIZOIDES STORY</h1>
+        <p>Nossas criações e projetos.</p>
     </header>
 
     <nav aria-label="Navegação principal">
@@ -32,35 +26,56 @@
     </nav>
 
     <div class="conteudo-layout">
-
         <aside>
-            <h2>Informações</h2>
-            <p>Explore o universo Esquizoides Story.</p>
-
+            <h2>Projetos</h2>
             <ul>
-                <li><a href="sobre.html">Conheça o projeto</a></li>
-                <li><a href="produtos.html">Veja os produtos</a></li>
-                <li><a href="contate-nos.html">Fale conosco</a></li>
+                <li><a href="#historias">Histórias</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#midia">Mídia</a></li>
             </ul>
         </aside>
 
         <main>
-            <!-- Mantenha aqui o conteúdo original da página -->
-
-            <section>
-                <h2>Título da página</h2>
-                <p>Conteúdo específico desta página.</p>
+            <section id="historias">
+                <h2>Histórias originais</h2>
+                <article>
+                    <h3>O Primeiro Portal</h3>
+                    <p>Projeto narrativo que apresenta o início de uma aventura.</p>
+                    <progress value="90" max="100">90%</progress>
+                    <p>Progresso estimado: 90%.</p>
+                </article>
             </section>
 
-        </main>
+            <section id="personagens">
+                <h2>Criação de personagens</h2>
+                <article>
+                    <h3>Universo Esquizoides</h3>
+                    <p>Desenvolvimento de personagens e suas histórias.</p>
+                    <progress value="70" max="100">70%</progress>
+                    <p>Progresso estimado: 70%.</p>
+                </article>
+            </section>
 
+            <section id="midia">
+                <h2>Vídeo do projeto</h2>
+                <p>Coloque seu arquivo de vídeo na pasta do site com o nome video.mp4.</p>
+                <video controls width="400">
+                    <source src="video.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+
+                <h2>Áudio do projeto</h2>
+                <p>Coloque seu arquivo de áudio na pasta do site com o nome audio.mp3.</p>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio HTML5.
+                </audio>
+            </section>
+        </main>
     </div>
 
     <footer>
         <p>&copy; 2026 Esquizoides Story.</p>
-        <p>Site desenvolvido com HTML5 e CSS externo.</p>
     </footer>
-
 </body>
-
 </html>
