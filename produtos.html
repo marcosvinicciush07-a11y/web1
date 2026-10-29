@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <h1>ESQUIZOIDES STORY</h1>
-        <p>Produtos do nosso universo.</p>
+        <p>Conheça nossos produtos.</p>
     </header>
 
     <nav aria-label="Navegação principal">
@@ -26,20 +27,20 @@
     </nav>
 
     <div class="conteudo-layout">
+
         <aside>
-            <h2>Catálogo</h2>
+            <h2>Nosso catálogo</h2>
             <ul>
-                <li><a href="#catalogo">Todos os produtos</a></li>
-                <li><a href="#grade">Imagem em grid</a></li>
-                <li><a href="#destaque">Destaque</a></li>
+                <li><a href="#catalogo">Lista de produtos</a></li>
+                <li><a href="#grade">Produto em destaque</a></li>
+                <li><a href="contate-nos.html">Fazer pedido</a></li>
             </ul>
-            <p>Para solicitar uma compra, acesse nosso formulário.</p>
-            <a href="contate-nos.html">Comprar</a>
         </aside>
 
         <main>
             <section id="catalogo">
                 <h2>Catálogo de produtos</h2>
+
                 <table>
                     <caption>Produtos Esquizoides Story</caption>
                     <thead>
@@ -53,14 +54,14 @@
                     <tbody>
                         <tr>
                             <td>ES-001</td>
-                            <td>Livro Esquizoides</td>
-                            <td>Uma história do nosso universo.</td>
+                            <td>Livro</td>
+                            <td>Histórias do nosso universo.</td>
                             <td>R$ 49,90</td>
                         </tr>
                         <tr>
                             <td>ES-002</td>
-                            <td>Camiseta temática</td>
-                            <td>Vestuário inspirado no projeto.</td>
+                            <td>Camiseta</td>
+                            <td>Produto temático.</td>
                             <td>R$ 79,90</td>
                         </tr>
                         <tr>
@@ -72,7 +73,7 @@
                         <tr>
                             <td>ES-004</td>
                             <td>Kit especial</td>
-                            <td>Conjunto de itens surpresa.</td>
+                            <td>Conjunto de produtos.</td>
                             <td>R$ 119,90</td>
                         </tr>
                     </tbody>
@@ -80,46 +81,38 @@
             </section>
 
             <section id="grade">
-                <h2>Personagem em destaque</h2>
-                <p>Confira a imagem organizada em uma grade.</p>
+                <h2>Produto em destaque</h2>
+                <p>Veja a imagem apresentada em nossa grade de produtos.</p>
 
-                <table>
-                    <caption>Grid do universo Esquizoides Story</caption>
-                    <tbody>
-                        <tr>
-                            <th scope="col">Personagens</th>
-                            <th scope="col">Imagem</th>
-                            <th scope="col">Aventuras</th>
-                        </tr>
-                        <tr>
-                            <td>Histórias</td>
-                            <td>
-                                <figure>
-                                    <img src="vitor.webp" alt="Imagem de Vitor" width="300">
-                                    <figcaption>Vitor — personagem em destaque.</figcaption>
-                                </figure>
-                            </td>
-                            <td>Mistérios</td>
-                        </tr>
-                        <tr>
-                            <td>Criatividade</td>
-                            <td>Esquizoides Story</td>
-                            <td>Novos projetos</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                <div class="grade-imagens">
+                    <figure class="item-imagem">
+                        <img src="vitor.webp"
+                             alt="Imagem de Vitor, destaque do projeto">
+                        <figcaption>
+                            Vitor — destaque Esquizoides Story
+                        </figcaption>
+                        <p>Imagem relacionada ao nosso universo.</p>
+                        <a href="contate-nos.html">Consultar produto</a>
+                    </figure>
 
-            <section id="destaque">
-                <h2>Faça seu pedido</h2>
-                <p>Gostou de algum produto?</p>
-                <a href="contate-nos.html">Solicitar compra</a>
+                    <article class="item-imagem">
+                        <h3>Conheça nossos produtos</h3>
+                        <p>
+                            Explore os itens disponíveis e entre em
+                            contato para consultar as opções.
+                        </p>
+                        <a href="contate-nos.html">Fazer um pedido</a>
+                    </article>
+                </div>
             </section>
         </main>
+
     </div>
 
     <footer>
         <p>&copy; 2026 Esquizoides Story.</p>
+        <p>Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
