@@ -1,0 +1,331 @@
+
+/* =================================
+   ESQUIZOIDES STORY
+   Folha de estilo externa
+   ================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+    background-color: #17131f;
+    line-height: 1.6;
+}
+
+/* CABEÇALHO */
+
+header {
+    padding: 25px;
+    text-align: center;
+    background-color: #302044;
+    border: 2px solid #8055a5;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #e5c8ff;
+    font-size: 2.2rem;
+}
+
+header h2 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+nav {
+    padding: 12px;
+    background-color: #493060;
+    border: 2px solid #8055a5;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 8px 12px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #21152d;
+    background-color: #e5c8ff;
+}
+
+/* ÁREA COM ASIDE E MAIN */
+
+.conteudo-layout {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 2fr;
+    gap: 20px;
+    align-items: start;
+    margin: 20px 0;
+}
+
+/* COLUNA LATERAL */
+
+aside {
+    padding: 20px;
+    background-color: #292333;
+    border: 2px solid #76528d;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+aside h2,
+aside h3 {
+    color: #e5c8ff;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    min-width: 0;
+    padding: 20px;
+    background-color: #211c2b;
+    border: 2px solid #57416d;
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+article {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #2c2538;
+    border-left: 4px solid #a879d4;
+    border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.3;
+}
+
+main h2 {
+    color: #d8b5ff;
+}
+
+a {
+    color: #d9b5ff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* IMAGENS */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    margin-top: 8px;
+    color: #d0c5dc;
+    font-size: 0.9rem;
+}
+
+/* TABELAS E GRID */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #2c2538;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+    color: #e5c8ff;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #8b70a4;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+th {
+    background-color: #493060;
+    color: #ffffff;
+}
+
+/* FORMULÁRIOS */
+
+form {
+    margin: 15px 0;
+}
+
+fieldset {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #8b70a4;
+    border-radius: 6px;
+}
+
+legend {
+    padding: 0 8px;
+    color: #e5c8ff;
+}
+
+label {
+    display: inline-block;
+    margin: 8px 0 4px;
+}
+
+input,
+select,
+textarea,
+button {
+    max-width: 100%;
+    font: inherit;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="color"]):not([type="range"]),
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    color: #211c2b;
+    background-color: #ffffff;
+    border: 1px solid #a98bc1;
+    border-radius: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+input[type="color"],
+input[type="range"] {
+    margin: 8px 0;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    margin: 8px 5px 8px 0;
+    padding: 10px 16px;
+    color: #ffffff;
+    background-color: #68468b;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #8a60ad;
+}
+
+/* ELEMENTOS COMPLEMENTARES */
+
+progress,
+meter {
+    max-width: 100%;
+}
+
+details {
+    margin: 15px 0;
+    padding: 12px;
+    background-color: #30283d;
+    border-radius: 5px;
+}
+
+summary {
+    cursor: pointer;
+    color: #e5c8ff;
+}
+
+/* RODAPÉ */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #302044;
+    border: 2px solid #8055a5;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* TELAS PEQUENAS */
+
+@media (max-width: 700px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    .conteudo-layout {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    main,
+    aside {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+}
+
