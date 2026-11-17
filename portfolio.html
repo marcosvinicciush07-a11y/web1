@@ -8,74 +8,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>ESQUIZOIDES STORY</h1>
-        <p>Nossas criações e projetos.</p>
-    </header>
 
-    <nav aria-label="Navegação principal">
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="parceiros.html">Parceiros</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contate-nos.html">Contate-nos</a></li>
-        </ul>
-    </nav>
+<header>
+    <h1>Nosso Portfólio</h1>
+    <p>Conheça nossos trabalhos e projetos.</p>
+</header>
 
-    <div class="conteudo-layout">
-        <aside>
-            <h2>Projetos</h2>
-            <ul>
-                <li><a href="#historias">Histórias</a></li>
-                <li><a href="#personagens">Personagens</a></li>
-                <li><a href="#midia">Mídia</a></li>
-            </ul>
-        </aside>
-
-        <main>
-            <section id="historias">
-                <h2>Histórias originais</h2>
-                <article>
-                    <h3>O Primeiro Portal</h3>
-                    <p>Projeto narrativo que apresenta o início de uma aventura.</p>
-                    <progress value="90" max="100">90%</progress>
-                    <p>Progresso estimado: 90%.</p>
-                </article>
-            </section>
-
-            <section id="personagens">
-                <h2>Criação de personagens</h2>
-                <article>
-                    <h3>Universo Esquizoides</h3>
-                    <p>Desenvolvimento de personagens e suas histórias.</p>
-                    <progress value="70" max="100">70%</progress>
-                    <p>Progresso estimado: 70%.</p>
-                </article>
-            </section>
-
-            <section id="midia">
-                <h2>Vídeo do projeto</h2>
-                <p>Coloque seu arquivo de vídeo na pasta do site com o nome video.mp4.</p>
-                <video controls width="400">
-                    <source src="video.mp4" type="video/mp4">
-                    Seu navegador não suporta vídeo HTML5.
-                </video>
-
-                <h2>Áudio do projeto</h2>
-                <p>Coloque seu arquivo de áudio na pasta do site com o nome audio.mp3.</p>
-                <audio controls>
-                    <source src="audio.mp3" type="audio/mpeg">
-                    Seu navegador não suporta áudio HTML5.
-                </audio>
-            </section>
-        </main>
+<nav>
+    <a href="index.html">Início</a>
+    <div class="dropdown">
+        <button class="dropdown-botao">Páginas ▼</button>
+        <div class="dropdown-conteudo">
+            <a href="sobre.html">Sobre</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="parceiros.html">Parceiros</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="contate-nos.html">Contate-nos</a>
+        </div>
     </div>
+</nav>
 
-    <footer>
-        <p>&copy; 2026 Esquizoides Story.</p>
-    </footer>
+<div class="conteudo-layout">
+    <aside>
+        <h2>Navegação</h2>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="parceiros.html">Parceiros</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contate-nos.html">Contato</a>
+    </aside>
+
+    <main>
+        <section>
+            <h2>Projetos realizados</h2>
+            <p>
+                Aqui apresentamos algumas das nossas ideias,
+                produções e atividades desenvolvidas.
+            </p>
+
+            <article>
+                <h3>Projeto 1</h3>
+                <p>Desenvolvimento de conteúdo criativo.</p>
+            </article>
+
+            <article>
+                <h3>Projeto 2</h3>
+                <p>Criação de histórias e experiências digitais.</p>
+            </article>
+
+            <article>
+                <h3>Projeto 3</h3>
+                <p>Organização e apresentação de conteúdos.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Nossos trabalhos</h2>
+            <p>Esta área pode receber imagens e vídeos dos projetos.</p>
+            <video controls width="100%">
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+        </section>
+    </main>
+</div>
+
+<footer>
+    <p>&copy; 2026 Esquizoides Story.</p>
+</footer>
+
 </body>
 </html>

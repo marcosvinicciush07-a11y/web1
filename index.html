@@ -1,85 +1,220 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início - Esquizoides Story</title>
+
+    <title>Esquizoides Story</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <!-- CABEÇALHO -->
     <header>
-        <h1>ESQUIZOIDES STORY</h1>
-        <p>Um universo de histórias, personagens e aventuras.</p>
+        <h1>Esquizoides Story</h1>
+        <p>Um espaço dedicado a histórias, criatividade e imaginação.</p>
     </header>
 
-    <nav aria-label="Navegação principal">
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="parceiros.html">Parceiros</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contate-nos.html">Contate-nos</a></li>
-        </ul>
+    <!-- MENU PRINCIPAL -->
+    <nav>
+        <a href="index.html">Início</a>
+
+        <div class="dropdown">
+            <button class="dropdown-botao" type="button">
+                Páginas ▼
+            </button>
+
+            <div class="dropdown-conteudo">
+                <a href="sobre.html">Sobre</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="parceiros.html">Parceiros</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contate-nos.html">Contate-nos</a>
+            </div>
+        </div>
     </nav>
 
+    <!-- CONTEÚDO DA PÁGINA -->
     <div class="conteudo-layout">
-        <aside>
-            <h2>Explore</h2>
-            <ul>
-                <li><a href="sobre.html">Nossa história</a></li>
-                <li><a href="produtos.html">Catálogo</a></li>
-                <li><a href="portfolio.html">Projetos</a></li>
-                <li><a href="contate-nos.html">Contato</a></li>
-            </ul>
 
-            <h3>Curiosidade</h3>
-            <details>
-                <summary>Me surpreenda!</summary>
-                <p>Novas histórias podem esconder personagens e mistérios inesperados.</p>
-            </details>
+        <!-- MENU LATERAL FIXO -->
+        <aside>
+            <h2>Menu lateral</h2>
+
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="parceiros.html">Parceiros</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contate-nos.html">Contate-nos</a></li>
+            </ul>
         </aside>
 
+        <!-- CONTEÚDO PRINCIPAL -->
         <main>
-            <section>
-                <h2>Bem-vindo ao nosso universo!</h2>
-                <p>O Esquizoides Story é um projeto criativo dedicado a histórias, personagens, produtos e experiências.</p>
-                <p>Explore as páginas e conheça tudo o que faz parte desse universo.</p>
-                <p><a href="sobre.html">Conheça o projeto</a></p>
-            </section>
 
             <section>
-                <h2>O que você encontra aqui?</h2>
-                <article>
-                    <h3>Produtos</h3>
-                    <p>Itens inspirados no universo Esquizoides Story.</p>
-                    <a href="produtos.html">Ver produtos</a>
-                </article>
-                <article>
-                    <h3>Portfólio</h3>
-                    <p>Projetos, ideias e conteúdos desenvolvidos.</p>
-                    <a href="portfolio.html">Conhecer projetos</a>
-                </article>
-                <article>
-                    <h3>Serviços</h3>
-                    <p>Conheça as possibilidades de colaboração.</p>
-                    <a href="servicos.html">Ver serviços</a>
-                </article>
+                <h2>Bem-vindo ao Esquizoides Story!</h2>
+
+                <p>
+                    Seja bem-vindo ao Esquizoides Story!
+                    Este é um espaço criado para compartilhar
+                    ideias, histórias, projetos e conteúdos
+                    criativos.
+                </p>
+
+                <p>
+                    Explore nossas páginas e conheça um pouco
+                    mais sobre nossos produtos, serviços,
+                    parceiros e trabalhos.
+                </p>
             </section>
 
-            <section>
-                <h2>Progresso do projeto</h2>
-                <label for="progresso">Desenvolvimento:</label>
-                <progress id="progresso" value="75" max="100">75%</progress>
+            <!-- SEÇÃO DAS 7 IMAGENS -->
+            <section class="secao-pilha">
+
+                <h2>Nossa galeria de imagens</h2>
+
+                <p>
+                    Clique na imagem que está na frente para
+                    revelar a próxima!
+                </p>
+
+                <div class="pilha-imagens">
+
+                    <img
+                        src="imagens/robocopgay1.jpeg"
+                        class="imagem-pilha"
+                        alt="Imagem 1"
+                    >
+
+                    <img
+                        src="imagens/robocopgay2.jpeg"
+                        class="imagem-pilha"
+                        alt="Imagem 2"
+                    >
+
+                    <img
+                        src="imagens/robocopgay3.jpeg"
+                        class="imagem-pilha"
+                        alt="Imagem 3"
+                    >
+
+                    <img
+                        src="imagens/robocopgay4.webp"
+                        class="imagem-pilha"
+                        alt="Imagem 4"
+                    >
+
+                    <img
+                        src="imagens/robocopgay6.jpg"
+                        class="imagem-pilha"
+                        alt="Imagem 5"
+                    >
+
+                    <img
+                        src="imagens/robocopgay7.jpg"
+                        class="imagem-pilha"
+                        alt="Imagem 6"
+                    >
+
+                    <img
+                        src="imagens/plys.webp"
+                        class="imagem-pilha"
+                        alt="Imagem 7"
+                    >
+
+                </div>
+
+                <p class="instrucao-imagens">
+                    Clique para passar as imagens.
+                </p>
+
             </section>
+
+            <!-- OUTRAS INFORMAÇÕES -->
+            <section class="secao-informacoes">
+
+                <h2>Conheça nosso projeto</h2>
+
+                <p>
+                    O Esquizoides Story reúne conteúdos e
+                    ideias em um ambiente com identidade
+                    visual própria.
+                </p>
+
+                <p>
+                    Utilize o menu superior ou a lateral
+                    para navegar pelas outras páginas
+                    do nosso site.
+                </p>
+
+            </section>
+
         </main>
+
     </div>
 
+    <!-- RODAPÉ -->
     <footer>
         <p>&copy; 2026 Esquizoides Story.</p>
-        <p>Desenvolvido com HTML5 e CSS externo.</p>
+        <p>Todos os direitos reservados.</p>
     </footer>
+
+
+    <!-- JAVASCRIPT DAS 7 IMAGENS -->
+    <script>
+
+        const imagens = document.querySelectorAll(".imagem-pilha");
+
+        let imagemAtual = 0;
+
+        // Organiza a pilha inicial
+        function organizarImagens() {
+
+            imagens.forEach((imagem, indice) => {
+
+                imagem.classList.remove("imagem-escondida");
+
+                imagem.style.zIndex = imagens.length - indice;
+
+            });
+
+            imagemAtual = 0;
+        }
+
+        // Passa para a próxima imagem
+        imagens.forEach((imagem) => {
+
+            imagem.addEventListener("click", function() {
+
+                // Esconde a imagem clicada
+                imagem.classList.add("imagem-escondida");
+
+                imagemAtual++;
+
+                // Se chegou à última imagem, reinicia
+                if (imagemAtual >= imagens.length) {
+
+                    organizarImagens();
+
+                }
+
+            });
+
+        });
+
+        // Inicia a galeria
+        organizarImagens();
+
+    </script>
+
 </body>
 </html>

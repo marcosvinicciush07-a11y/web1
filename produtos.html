@@ -9,110 +9,86 @@
 </head>
 <body>
 
-    <header>
-        <h1>ESQUIZOIDES STORY</h1>
-        <p>Conheça nossos produtos.</p>
-    </header>
+<header>
+    <h1>Nossos Produtos</h1>
+    <p>Conheça os conteúdos e produtos do projeto.</p>
+</header>
 
-    <nav aria-label="Navegação principal">
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="parceiros.html">Parceiros</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contate-nos.html">Contate-nos</a></li>
-        </ul>
-    </nav>
-
-    <div class="conteudo-layout">
-
-        <aside>
-            <h2>Nosso catálogo</h2>
-            <ul>
-                <li><a href="#catalogo">Lista de produtos</a></li>
-                <li><a href="#grade">Produto em destaque</a></li>
-                <li><a href="contate-nos.html">Fazer pedido</a></li>
-            </ul>
-        </aside>
-
-        <main>
-            <section id="catalogo">
-                <h2>Catálogo de produtos</h2>
-
-                <table>
-                    <caption>Produtos Esquizoides Story</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Código</th>
-                            <th scope="col">Produto</th>
-                            <th scope="col">Descrição</th>
-                            <th scope="col">Preço</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>ES-001</td>
-                            <td>Livro</td>
-                            <td>Histórias do nosso universo.</td>
-                            <td>R$ 49,90</td>
-                        </tr>
-                        <tr>
-                            <td>ES-002</td>
-                            <td>Camiseta</td>
-                            <td>Produto temático.</td>
-                            <td>R$ 79,90</td>
-                        </tr>
-                        <tr>
-                            <td>ES-003</td>
-                            <td>Poster</td>
-                            <td>Decoração temática.</td>
-                            <td>R$ 29,90</td>
-                        </tr>
-                        <tr>
-                            <td>ES-004</td>
-                            <td>Kit especial</td>
-                            <td>Conjunto de produtos.</td>
-                            <td>R$ 119,90</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section id="grade">
-                <h2>Produto em destaque</h2>
-                <p>Veja a imagem apresentada em nossa grade de produtos.</p>
-
-                <div class="grade-imagens">
-                    <figure class="item-imagem">
-                        <img src="imagens/vitor.webp"
-                             alt="vitor, o grande fã do bts3">
-                        <figcaption>
-                            Vitor, o grande fã do bts
-                        </figcaption>
-                        <p>Imagem relacionada ao nosso universo.</p>
-                        <a href="contate-nos.html">Consultar produto</a>
-                    </figure>
-
-                    <article class="item-imagem">
-                        <h3>Conheça nossos produtos</h3>
-                        <p>
-                            Explore os itens disponíveis e entre em
-                            contato para consultar as opções.
-                        </p>
-                        <a href="contate-nos.html">Fazer um pedido</a>
-                    </article>
-                </div>
-            </section>
-        </main>
-
+<nav>
+    <a href="index.html">Início</a>
+    <div class="dropdown">
+        <button class="dropdown-botao">Páginas ▼</button>
+        <div class="dropdown-conteudo">
+            <a href="sobre.html">Sobre</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="parceiros.html">Parceiros</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="contate-nos.html">Contate-nos</a>
+        </div>
     </div>
+</nav>
 
-    <footer>
-        <p>&copy; 2026 Esquizoides Story.</p>
-        <p>Todos os direitos reservados.</p>
-    </footer>
+<div class="conteudo-layout">
+    <aside>
+        <h2>Navegação</h2>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="parceiros.html">Parceiros</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contate-nos.html">Contato</a>
+    </aside>
+
+    <main>
+        <section>
+            <h2>Conheça nossos produtos</h2>
+            <p>
+                Nesta página apresentamos alguns conteúdos e produtos
+                relacionados ao universo do Esquizoides Story.
+            </p>
+
+            <div class="grade-imagens">
+                <figure class="item-imagem">
+                    <img src="imagens/plys.webp" alt="Produto do projeto">
+                    <figcaption>Produto em destaque</figcaption>
+                </figure>
+
+                <figure class="item-imagem">
+                    <img src="imagens/vitor.webp" alt="Conteúdo do projeto">
+                    <figcaption>Conteúdo especial</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>Lista de produtos</h2>
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                    <td>Produto 1</td>
+                    <td>Conteúdo especial do projeto.</td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>Material criativo e personalizado.</td>
+                </tr>
+                <tr>
+                    <td>Produto 3</td>
+                    <td>Novidades do nosso universo.</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</div>
+
+<footer>
+    <p>&copy; 2026 Esquizoides Story.</p>
+</footer>
 
 </body>
 </html>
